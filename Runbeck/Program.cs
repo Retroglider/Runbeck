@@ -107,10 +107,6 @@ namespace Runbeck
                 ?? value.ToString();
         }
     }
-    public class Line
-    {
-        List<string> Fields { get; set; } = new List<string>();
-    }
     
     public struct Parameters
     {
